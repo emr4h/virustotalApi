@@ -13,7 +13,7 @@ print(f.renderText('VirusTotal Api'))
 
 print("by emr4h\n")
 
-parser = argparse.ArgumentParser(prog="virustotalApi\n", description="Virustotal API", usage="\n\n Hash Analysis with Virus Total: python3 virustotal.py --virustotal <file_path> \n ")
+parser = argparse.ArgumentParser(prog="virustotalApi\n", description="Virustotal API", usage="\n\n Hash Analysis with Virus Total: python3 virustotal.py -p <file_path> \n ")
 parser.add_argument("-p","--path", help = "Path of the file to be analyzed")
 args = parser.parse_args() 
 
