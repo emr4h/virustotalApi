@@ -6,25 +6,21 @@
 ## About The Project
  * A tool that extracts the hash of the given file and detects malware using the VirusTotal Api
  
- 
-<!-- GETTING STARTED -->
-## Getting Started
- * Please upload requirements
-```sh
-pip install requirements.txt
-```
-* or
-```sh
-pip3 install requirements.txt
-```
-
-## Installation
+ ## Installation
 
 * Clone the repo
  
    ```sh
    git clone https://github.com/emr4h/virustotalApi.git
    ```
+ 
+<!-- GETTING STARTED -->
+## Getting Started
+ * Please upload requirements
+
+```sh
+pip3 install requirements.txt
+```
    
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -49,8 +45,6 @@ python3 virustotal.py -p <file_path>
 
 <!-- Demo --> 
 ## Demo
-
-
 
 https://user-images.githubusercontent.com/60710585/156616582-7ebe3417-151f-400c-a445-42efbbd48054.mp4
 
